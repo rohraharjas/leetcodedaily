@@ -19,7 +19,7 @@ Contributions are welcome! If you have a better solution or an alternative appro
 ## Getting Started
 
 1. Clone the repository:
-   ```git clone https://github.com/rohraharjas/leetcode-daily-challenges.git```
+   ```git clone https://github.com/rohraharjas/leetcodedaily.git```
 2. Open the file of the problem you want to work on
 3. Implement your solution
 4. Test your solution with different test cases.
