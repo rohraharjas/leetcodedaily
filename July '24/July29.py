@@ -20,6 +20,7 @@ def numTeams(ratings: List[int]) -> int:
     n = len(ratings)
 
     for i in range(n):
+        # for each index i find number of ratings to the left greater than i and less than i. repeat same for right
         l_gt, l_lw, r_gt, r_lw = 0,0,0,0
         for j in range(i):
             if ratings[j]<ratings[i]:
