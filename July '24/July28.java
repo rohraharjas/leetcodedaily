@@ -23,7 +23,7 @@ import java.util.*;
 class Solution{
     public int secondMinTime(int n, int[][] edges, int time, int change){
         //Creating Adjacency List for Graph
-        List<Integer>[] adj = new ArrayList[n+1];
+        ArrayList<Integer>[] adj = new ArrayList[n+1];
         for(int i=0;i<n;i++){
             adj[i] = new ArrayList<>();
         }
