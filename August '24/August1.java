@@ -13,7 +13,7 @@ Link - https://leetcode.com/problems/number-of-senior-citizens/description/
  */
 
 
- class Solution{
+ class countingSeniors{
     public int countSeniors(String[] details) {
         int count = 0;
         for(String person:details){
@@ -27,7 +27,7 @@ Link - https://leetcode.com/problems/number-of-senior-citizens/description/
     }
 
     public static void main(String args[]){
-        Solution obj = new Solution();
+        countingSeniors obj = new countingSeniors();
         // Example 1
         String[] details1 = {"7868190130M7522", "5303914400F9211", "9273338290F4010"};
         int result1 = obj.countSeniors(details1);
