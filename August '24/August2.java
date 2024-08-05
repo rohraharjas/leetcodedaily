@@ -1,4 +1,4 @@
-public class MinSwapsToGroupOnes {
+class MinSwapsToGroupOnes {
     
     public int minSwaps(int[] nums) {
         int ones = 0;

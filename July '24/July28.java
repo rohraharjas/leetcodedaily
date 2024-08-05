@@ -20,7 +20,7 @@ Link - https://leetcode.com/problems/second-minimum-time-to-reach-destination/de
 
 import java.util.*;
 
-class Solution{
+class Solution {
     public int secondMinTime(int n, int[][] edges, int time, int change){
         //Creating Adjacency List for Graph
         ArrayList<Integer>[] adj = new ArrayList[n+1];
